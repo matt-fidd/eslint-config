@@ -1,8 +1,11 @@
 {
   "name": "@matt-fidd/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint shareable config for my projects",
-  "repository": "matt-fidd/eslint-config",
+  "repository": {
+    "type" : "git",
+    "url" : "github:matt-fidd/eslint-config"
+  },
   "author": "Matt Fiddaman <npm@m.fiddaman.uk>",
   "peerDependencies": {
     "eslint": "^8.10.0"
