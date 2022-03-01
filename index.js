@@ -2,6 +2,21 @@
 
 module.exports = {
 	'rules': {
+		'array-bracket-spacing': [
+			'error',
+			'always'
+		],
+		'block-scoped-var': [
+			'error'
+		],
+		'brace-style': [
+			'error'
+		],
+		'curly': [
+			'error',
+			'multi-or-nest',
+			'consistent'
+		],
 		'indent': [
 			'error',
 			'tab',
@@ -13,37 +28,22 @@ module.exports = {
 			'error',
 			'unix'
 		],
-		'quotes': [
-			'error',
-			'single'
-		],
-		'semi': [
-			'error',
-			'always'
-		],
-		'no-unused-vars': [
-			'error',
-			{
-				'vars': 'local',
-				'argsIgnorePattern': '^_',
-				'varsIgnorePattern': '^_',
-			}
-		],
 		'max-len': [
 			'error',
 			{
 				'code': 80
 			}
 		],
-		'array-bracket-spacing': [
-			'error',
-			'always'
+		'no-else-return': [
+			'error'
 		],
-		'object-curly-spacing': [
-			'error',
-			'always'
+		'no-empty-function': [
+			'error'
 		],
 		'no-extra-parens': [
+			'error'
+		],
+		'no-self-compare': [
 			'error'
 		],
 		'no-template-curly-in-string': [
@@ -52,28 +52,28 @@ module.exports = {
 		'no-unreachable-loop': [
 			'error'
 		],
-		'block-scoped-var': [
-			'error'
-		],
-		'curly': [
+		'no-unused-vars': [
 			'error',
-			'multi-or-nest',
-			'consistent'
-		],
-		'no-else-return': [
-			'error'
-		],
-		'no-empty-function': [
-			'error'
-		],
-		'no-self-compare': [
-			'error'
+			{
+				'vars': 'local',
+				'argsIgnorePattern': '^_',
+				'varsIgnorePattern': '^_'
+			}
 		],
 		'no-useless-return': [
 			'error'
 		],
-		'brace-style': [
-			'error'
+		'object-curly-spacing': [
+			'error',
+			'always'
+		],
+		'quotes': [
+			'error',
+			'single'
+		],
+		'semi': [
+			'error',
+			'always'
 		],
 		'strict': [
 			'error',
