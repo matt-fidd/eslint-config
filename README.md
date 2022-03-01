@@ -1,4 +1,5 @@
 # eslint-config
+![npm (scoped)](https://img.shields.io/npm/v/@matt-fidd/eslint-config)
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for my projects.
 
