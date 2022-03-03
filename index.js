@@ -77,7 +77,7 @@ module.exports = {
 			}
 		],
 		'multiline-comment-style': [
-			'error',
+			'warn',
 			'starred-block'
 		],
 		'no-array-constructor': [
