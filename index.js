@@ -171,7 +171,10 @@ module.exports = {
 			'never'
 		],
 		'prefer-const': [
-			'error'
+			'error',
+			{
+				'destructuring': 'all'
+			}
 		],
 		'quotes': [
 			'error',
