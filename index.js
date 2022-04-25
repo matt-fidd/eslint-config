@@ -89,6 +89,9 @@ module.exports = {
 		'no-await-in-loop': [
 			'warn'
 		],
+		'no-constant-binary-expression': [
+			'error'
+		],
 		'no-else-return': [
 			'error'
 		],
