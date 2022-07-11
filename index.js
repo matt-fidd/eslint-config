@@ -92,6 +92,9 @@ module.exports = {
 		'no-constant-binary-expression': [
 			'error'
 		],
+		'no-control-regex': [
+			'off'
+		],
 		'no-else-return': [
 			'error'
 		],
@@ -100,6 +103,9 @@ module.exports = {
 		],
 		'no-extra-parens': [
 			'error'
+		],
+		'no-fallthrough': [
+			'off'
 		],
 		'no-implicit-coercion': [
 			'error'
