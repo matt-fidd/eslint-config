@@ -89,6 +89,10 @@ module.exports = {
 		'no-await-in-loop': [
 			'warn'
 		],
+		'no-cond-assign': [
+			'error',
+			'except-parens'
+		],
 		'no-constant-binary-expression': [
 			'error'
 		],
@@ -102,7 +106,11 @@ module.exports = {
 			'error'
 		],
 		'no-extra-parens': [
-			'error'
+			'error',
+			'all',
+			{
+				'conditionalAssign': false
+			}
 		],
 		'no-fallthrough': [
 			'off'
