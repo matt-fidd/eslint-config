@@ -1,6 +1,6 @@
 {
   "name": "@matt-fidd/eslint-config",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "ESLint shareable config for my projects",
   "repository": {
     "type": "git",
