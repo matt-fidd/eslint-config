@@ -22,8 +22,12 @@ module.exports = {
 		'brace-style': [
 			'error'
 		],
-		'comma-dangle': [
+		'camelcase': [
 			'error'
+		],
+		'comma-dangle': [
+			'error',
+			'only-multiline'
 		],
 		'comma-spacing': [
 			'error'
