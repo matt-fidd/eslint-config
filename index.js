@@ -188,7 +188,13 @@ module.exports = {
 		],
 		'operator-linebreak': [
 			'error',
-			'after'
+			'after',
+			{
+				'overrides': {
+					'?': 'before',
+					':': 'before'
+				}
+			}
 		],
 		'padded-blocks': [
 			'error',
